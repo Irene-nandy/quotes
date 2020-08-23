@@ -1,7 +1,5 @@
 .container{
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/826/631/767/quote-text-typography-yellow-background-wallpaper-preview.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: aqua;
 }
 h1{
     text-align: center;
