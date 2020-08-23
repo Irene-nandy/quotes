@@ -1,5 +1,4 @@
 ## Quotes App
-# The Quotes-App Version v1.0
 # Description
 This is a simple Angular application that enables users to post their quotes and have others either upvote , downvote or delete a quote.
 
