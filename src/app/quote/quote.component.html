@@ -1,0 +1,35 @@
+<!-- <div class="container">
+    <h1 class="alert-success">QUOTES CLASSIC APP</h1>
+    <hr>
+    <div class="row">
+        <div class="col-md-6">
+            <div *ngFor='let quote of quotes; let i=index'>
+
+                <li appStrikethrough>{{quote.name}} due on {{quote.completeDate}}</li>
+              
+              <button (click)='toggleDetails(i)' class="btn btn-primary">Show</button>  
+
+              
+              <div class="details">
+
+<app-quote-details *ngIf='quote.showDescription'  [quote]="quote" (isComplete) = 'deleteQuote($event,i)'></app-quote-details>
+                
+                </div>
+            </div>
+            
+            <div>
+
+            </div>
+            
+        </div>
+        <div>
+            
+            <app-count-input></app-count-input>
+           </div>
+        <div class="col-md-6">
+            <app-form (addQuote)="addNewQuote($event)"></app-form>
+        </div>
+    </div>
+    
+</div>
+ -->
