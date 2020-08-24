@@ -7,7 +7,7 @@ The applications enables users to:
 
 Create a new quote.
 Upvote or downvote a quote.
-Delete a quote
+Delete a quote.
 See the number of upvotes and number of downvotes for each quote.
 This project was generated with Angular CLI version 10.0.6.
 # Quote
